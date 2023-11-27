@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root{
+    --orange:#DA0037;
+    --black:#171717;
+    --light-color:#EDEDED;
+}
+
+html {  
+    height: 100%;  
+   }  
+   body {  
+    margin:0;  
+    padding:0;  
+    font-family: 'Poppins', sans-serif;  
+    background: linear-gradient(var(--black), #444444);  
+   }  
+   .signup-box {  
+    position: absolute;  
+    top: 50%;  
+    left: 50%;  
+    width: 400px;  
+    padding: 40px;  
+    transform: translate(-50%, -50%);  
+    background: var(--black);  
+    box-sizing: border-box;  
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);  
+    border-radius: 10px;  
+   }  
+   .signup-box h2 {  
+    margin: 0 0 30px;  
+    padding: 0;  
+    color: var(--light-color);  
+    text-align: center;  
+   }  
+   .signup-box .form-group {  
+    position: relative;  
+   }  
+   .signup-box .form-group input {  
+    width: 100%;  
+    padding: 10px 0;  
+    font-size: 16px;  
+    color: var(--light-color);  
+    margin-bottom: 30px;  
+    border: none;  
+    border-bottom: 1px solid var(--light-color);  
+    outline: none;  
+    background: transparent;  
+   }  
+
+   .signup-box p{
+    color:var(--light-color);
+   }
+
+   .signup-box a{
+    color:var(--orange);
+    text-decoration: underline;
+   }
+   
+   .signup-box .form-group label {  
+    position: absolute;  
+    top:0;  
+    left: 0;  
+    padding: 10px 0;  
+    font-size: 16px;  
+    color: var(--light-color);  
+    pointer-events: none;  
+    transition: .5s;  
+   }  
+   .signup-box .form-group input:focus ~ label,  
+   .signup-box .form-group input:valid ~ label {  
+    top: -20px;  
+    left: 0;  
+    color: var(--orange);  
+    font-size: 12px;  
+   }  
+   .signup-box form button { 
+    background-color: transparent;
+    border-radius: 5px; 
+    position: relative;  
+    display: inline-block;  
+    padding: 10px 20px;  
+    color: var(--orange);  
+    font-size: 16px;  
+    text-decoration: none;  
+    text-transform: uppercase;  
+    overflow: hidden;  
+    transition: .5s;  
+    margin-top: 40px;  
+    letter-spacing: 4px  
+   }  
+   .signup-box button:hover {  
+    background: var(--orange);  
+    color: var(--light-color);  
+    border-radius: 5px;  
+    box-shadow: 0 0 5px var(--orange),  
+          0 0 25px var(--orange),  
+          0 0 50px var(--orange),  
+          0 0 100px var(--orange);  
+   }   

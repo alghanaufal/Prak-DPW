@@ -1,0 +1,54 @@
+<!-- 
+Alghaniyu Naufal Hamid
+C1
+2105673 
+TP3 kalkulator sederhana
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- judul -->
+        <title>Kalkulator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- memanggil css -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <section>  
+            <div class="container">  
+                <div class="calculator">
+                    <!-- layar keluaran kalkulator   -->
+                    <form name="form">
+                        <input class="textarea" name="textarea">
+                    </form>        
+                    <!-- membuat tombol -->
+                    <div class="all_button">  
+                        <div class="button btn-c all-clear" onclick="clean()">C</div>  
+                        <div class="button btn-del" onclick="del()">DEL</div>  
+                        <div class="button operation" onclick="insert('/')">/</div>  
+                        <div class="button number" onclick="insert('7')">7</div>  
+                        <div class="button number" onclick="insert('8')">8</div>  
+                        <div class="button number" onclick="insert('9')">9</div>  
+                        <div class="button operation" onclick="insert('*')">x</div>  
+                        <div class="button number" onclick="insert('4')">4</div>  
+                        <div class="button number" onclick="insert('5')">5</div>  
+                        <div class="button number" onclick="insert('6')">6</div>  
+                        <div class="button operation" onclick="insert('-')">-</div>  
+                        <div class="button number" onclick="insert('1')">1</div>  
+                        <div class="button number" onclick="insert('2')">2</div>  
+                        <div class="button number" onclick="insert('3')">3</div>  
+                        <div class="button operation" onclick="insert('+')">+</div>  
+                        <div class="button btn-0 number" onclick="insert('0')">0</div>  
+                        <div class="button number dot" onclick="insert('.')">.</div> 
+                        <div class="button btn-e equal" onclick="equal()">=</div>  
+                    </div>  
+                </div>     
+            </div> 
+        </section> 
+        <!-- memggil javascript -->
+        <script src="script.js" async defer></script>
+    </body>

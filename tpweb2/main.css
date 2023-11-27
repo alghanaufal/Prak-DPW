@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#242422), to(black));
+  background-image: linear-gradient(#242422, black);
+}
+
+body .grid {
+  display: -ms-grid;
+  display: grid;
+}
+
+body .grid .name:nth-child(1) {
+  padding: 4px;
+  color: #e2e0c6;
+  text-align: center;
+}
+
+body .grid .name:nth-child(2) {
+  padding: 4px;
+  color: #d6d3af;
+  text-align: center;
+}
+
+body .grid .name:nth-child(3) {
+  padding: 4px;
+  color: #cac697;
+  text-align: center;
+}
+
+body .grid .name:nth-child(4) {
+  padding: 4px;
+  color: #bdba80;
+  text-align: center;
+}
+
+body .grid .name:nth-child(5) {
+  padding: 4px;
+  color: #b1ad68;
+  text-align: center;
+}
+
+body .grid .name:nth-child(6) {
+  padding: 4px;
+  color: #a29d54;
+  text-align: center;
+}
+
+body .grid .name:nth-child(7) {
+  padding: 4px;
+  color: #8b8647;
+  text-align: center;
+}
+
+body .grid .name:nth-child(8) {
+  padding: 4px;
+  color: #73703b;
+  text-align: center;
+}
+
+body .grid .name:nth-child(9) {
+  padding: 4px;
+  color: #5c592f;
+  text-align: center;
+}
+
+body .grid table {
+  padding: 20px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body .photo {
+  width: 300px;
+  height: 300px;
+  border-radius: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+}
+/*# sourceMappingURL=main.css.map */

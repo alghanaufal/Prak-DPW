@@ -1,0 +1,88 @@
+<!-- Alghaniyu Naufal
+21025673
+Tugas Praktek 1 Desain Web -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- memberikan nama web -->
+    <title>Profil</title>
+
+    <!-- membuat style -->
+    <style>
+        /* agar tabel memenuhi satu layar */
+        table {
+            width: 100%;
+        } 
+        /* membuat tabel setebal 3 pixel dan berwarna hitam*/
+        table, th, td {
+            border: 3px solid black;
+        }
+        /* mengatur jarak elemen dari dalam sebanyak 9 pixel dan mengatur font*/
+        th, td {
+            font-family: Arial;
+            padding: 9px;
+        }
+        /* mengatur warna backgroun pada tabel photo */
+        th {
+            background-color: rgb(31, 143, 218);
+        }
+        /* memberi efek yg terjadi saat kursor mengarah */
+        tr:hover {background-color: #f5f5f5;}
+    </style>
+</head>
+<body>
+    <!-- membuat tabel -->
+    <table>
+        <tr>
+            <!-- mebuat 2 tabel kolom menjadi 1 dan 
+            memasukan foto ke tabel lalu mengatur besar foto tersebut -->
+            <th colspan="2"><img src="D:\Azek.png" 
+                width="320" 
+                height="400" 
+                alt="Alghaniyu Naufal Hamid">
+            </th>
+        </tr>
+        <!-- membuat baris dan kolom pada tabel -->
+            <td>Nama</td>
+            <td>Alghaniyu Naufal Hamid</td>
+        <tr>
+            <td>NIM</td>
+            <td>2105673</td>
+        </tr>
+        <tr>
+            <td>Kelas</td>
+            <td>C1</td>
+        </tr>
+        <tr>
+            <td>Asal Sekolah</td>
+            <td>SMAS Daya Utama Kota bekasi</td>
+        </tr>
+        <tr>
+            <td>Motto</td>
+            <td>tetap berjalan kedepan<br>dan jangan lupa istirahat</td>
+        </tr>
+        <tr>
+            <td>Hobi</td>
+            <!-- membuat list didalam tabel kolom -->
+            <td><ul>
+                <li>Olahraga</li>
+                <li>Menonton</li>
+                <li>Main Game</li>
+            </ul></td>
+        </tr>
+        <tr>
+            <td>Sosial Media</td>
+            <td>
+                <!-- menaruh link pada tabel kolom -->
+                instagram :<a href="https://www.instagram.com/algha_jpg/">algha_jpg</a>
+            </td>
+        </tr>
+      </table>
+</body>
+<!-- menulis ditengah dan memngatur jenis font -->
+<center><p style="font-family: Calibri;">Sekian Terima Kasih</p></center>
+</html>

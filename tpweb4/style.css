@@ -1,0 +1,41 @@
+:root {
+    --primary-color: #22254b;
+    --secondary-color: #373b69;
+}
+
+body {
+    font-family: arial,sans-serif;
+    background-color: var(--primary-color);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    color: #ccc;
+}
+
+.search {
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    font-size: 1rem;
+    color:#fff;
+    padding: 0.25rem;
+}
+
+.search:focus {
+    outline: 0;
+    background-color: var(--primary-color);
+}
+
+.search::placeholder {
+    color: #ccc;
+}
+
+.card {
+    background-color: #ccc;
+    margin: 0 auto;
+    border: none;
+}
